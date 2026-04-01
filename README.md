@@ -1,5 +1,5 @@
 # Autonomous Large Language Model Agents for Materials Science
-This repository contains the code accompanying the paper *From Data to Theory: Autonomous Large Language Model Agents for Materials Science*.
+This repository contains the code accompanying the paper ***From Data to Theory: Autonomous Large Language Model Agents for Materials Science***.
 
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-blue.svg)](https://www.mathworks.com/)
