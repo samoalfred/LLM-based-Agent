@@ -1,5 +1,5 @@
 # LLM-based_Agent
-This repository contains the code accompanying our paper "From Data to Theory: Autonomous Large Language Model Agents for Materials Science".
+This repository contains the code accompanying the paper "From Data to Theory: Autonomous Large Language Model Agents for Materials Science".
 
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-blue.svg)](https://www.mathworks.com/)
@@ -10,7 +10,7 @@ This repository contains the code accompanying our paper "From Data to Theory: A
 
 ## Introduction
 
-We present an autonomous large language model (LLM) agent for end-to-end, data-driven materials theory development. The agent can choose an equation form, generate and run its own code, and test how well the theory matches the data all without human intervention. The framework combines step-by-step reasoning with expert-supplied tools, allowing the agent to adjust its approach as needed while maintaining a clear record of its decisions.
+We present an autonomous large language model agent for end-to-end, data-driven materials theory development. The agent can choose an equation form, generate and run its own code, and test how well the theory matches the data all without human intervention. The framework combines step-by-step reasoning with expert-supplied tools, allowing the agent to adjust its approach as needed while maintaining a clear record of its decisions.
 
 ---
 
@@ -120,8 +120,8 @@ run('Paris_Law_GPT5.m')        % GPT-5 version
 
 Each LLM-based agent operates through a ReAct (Reasoning + Acting) loop:
 
-1. **THOUGHT** The LLM reasons about current state and determines next action
-2. **ACTION** The agent calls MATLAB tools (load data, generate equation, fit model, etc.)
+1. **THOUGHT** The LLM reasons about the current state and determines the next action
+2. **ACTION** The agent calls MATLAB tools from the tool registry (load data, generate equation, fit model, etc.)
 3. **OBSERVATION** The system updates state with results
 4. **ITERATE** The process repeats until the objective is met
 
@@ -130,11 +130,10 @@ Each LLM-based agent operates through a ReAct (Reasoning + Acting) loop:
 
 ## Features
 
-- 🤖 **LLM-generated equations** from first principles with no hardcoded models
+- 🤖 **LLM-generated equations** from its own training knowledge 
 - 📚 **Literature-based equation extraction** for baseline comparison
 - 🧠 **ReAct architecture** for autonomous decision-making
 - 📊 **Nonlinear least squares fitting** with validation metrics (R², RMSE)
-- 🔍 **Automatic Paris regime detection** via moving window slope analysis
 - 📈 **Publication-quality visualizations** including log-log, residuals, and linearized forms
 - 📝 **Complete reasoning trace** for transparency and reproducibility
 - 🔄 **GPT-4 and GPT-5 versions** for comparative analysis
