@@ -44,7 +44,7 @@ LLM-based_Agents/
 │       ├── Kuhn_LLM_GPT5.m             # Kuhn equation extraction from LLM's knowledge
 │       ├── Kuhn_Lit_GPT5.m             # Literature-based Kuhn equation extraction
 │       └── Modified_Kuhn_GPT5.m        # Modified Kuhn equation with strain effects
-└── README.md                   # This file
+└── README.md                           # This file
 ```
 
 ---
