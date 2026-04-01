@@ -140,6 +140,11 @@ Each LLM-based agent operates through a ReAct (Reasoning + Acting) loop:
 
 ---
 
+## References
+The MathWorks, Inc. Large language models (LLMs) with MATLAB toolbox. https://github.com/matlab-deep-learning/llms-with-matlab, 2026. Accessed: 2026-03-31.
+
+---
+
 ## License
 
 The license is available in the [LICENSE](LICENSE) file in this GitHub repository.
