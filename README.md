@@ -2,7 +2,7 @@
 This repository contains the code accompanying our paper "From Data to Theory: Autonomous Large Language Model Agents for Materials Science".
 
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2024a-blue.svg)](https://www.mathworks.com/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-blue.svg)](https://www.mathworks.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--5-green.svg)](https://openai.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -112,27 +112,19 @@ run('Hall_Petch_GPT5.m')       % GPT-5 version
 run('Paris_Law_GPT4.m')        % GPT-4 version
 run('Paris_Law_GPT5.m')        % GPT-5 version
 
-% Helicene strain agents
-run('Kuhn_LLM_GPT4.m')         % Kuhn equation extraction from LLM's knowledge (GPT-4)
-run('Kuhn_LLM_GPT5.m')         % Kuhn equation extraction from LLM's knowledge (GPT-5)
-run('Kuhn_Lit_GPT4.m')         % Literature-based Kuhn equation extraction (GPT-4)
-run('Kuhn_Lit_GPT5.m')         % Literature-based Kuhn equation extraction (GPT-5)
-run('Modified_Kuhn_GPT4.m')    % Modified Kuhn equation with strain effects (GPT-4)
-run('Modified_Kuhn_GPT5.m')    % Modified Kuhn equation with strain effects (GPT-5)
 ```
 
 ---
 
 ## How It Works
 
-Each agent operates through a ReAct (Reasoning + Acting) loop:
+Each LLM-based agent operates through a ReAct (Reasoning + Acting) loop:
 
 1. **THOUGHT** The LLM reasons about current state and determines next action
 2. **ACTION** The agent calls MATLAB tools (load data, generate equation, fit model, etc.)
 3. **OBSERVATION** The system updates state with results
-4. **ITERATE** The process repeats until theory is validated
+4. **ITERATE** The process repeats until the objective is met
 
-This mirrors the scientific method: observe, hypothesize, test, analyze, and theorize.
 
 ---
 
