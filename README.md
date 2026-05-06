@@ -159,11 +159,14 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @article{Alfred2026FromData,
-  title={From Data to Theory: Autonomous Large Language Model Agents for Materials Science},
-  author={Alfred, Samuel Onimpa and Sundararaghavan, Veera},
-  institution={University of Michigan, Ann Arbor},
-  year={2026},
-  note={Available at: https://github.com/yourusername/LLM-based_Agents}
+  title         = {From Data to Theory: Autonomous Large Language Model Agents for Materials Science},
+  author        = {Samuel Onimpa Alfred and Veera Sundararaghavan},
+  year          = {2026},
+  journal       = {arXiv preprint},
+  volume        = {arXiv:2604.19789},
+  note          = {Available at: \url{https://arxiv.org/abs/2604.19789}},
+  doi           = {10.48550/arXiv.2604.19789},
+  primaryclass  = {cs.AI}
 }
 ```
 
